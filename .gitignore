@@ -1,0 +1,31 @@
+# 打包产物
+/build/
+*.apk
+*.ipa
+*.zip
+
+# 个人打赏收款码
+/assets_donate.png
+/assets/donate.png
+
+# 当前只维护安卓版，历史网页/iOS 目录不入库
+/web/
+/ios/
+/iPhone使用说明.md
+/iOS云构建说明.md
+/.github/workflows/ios-build.yml
+/启动网页版.ps1
+
+# 签名证书与密钥，绝对不能上传
+/tools/*.keystore
+*.jks
+
+# Python
+__pycache__/
+*.pyc
+
+# Xcode
+ios/*.xcodeproj/
+ios/Info.plist
+ios/build/
+DerivedData/

@@ -1,0 +1,4 @@
+# 图库原图走 Git LFS
+assets/lib/*.jpg filter=lfs diff=lfs merge=lfs -text
+assets/covers/*.jpg filter=lfs diff=lfs merge=lfs -text
+assets/tips/*.jpg filter=lfs diff=lfs merge=lfs -text

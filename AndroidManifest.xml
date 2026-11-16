@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.poselib.app"
+    android:versionCode="1001"
+    android:versionName="1.0.1"
+    android:installLocation="preferExternal">
+
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:label="美拍姿势库"
+        android:icon="@mipmap/ic_launcher"
+        android:largeHeap="true"
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+
+        <provider
+            android:name=".ShareProvider"
+            android:authorities="com.poselib.app.share"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+
+        <activity
+            android:name=".CategoryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GridActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".ViewerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity android:name=".SearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".StatsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".TipsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ShootTipsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".FeedbackActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".AdminActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+</manifest>
