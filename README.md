@@ -7,6 +7,10 @@
 <p align="center"><b>告别拍照尴尬，记录每一次美好！</b></p>
 
 <p align="center">
+  中文 | <a href="README.en.md">English</a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Android-5.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 5.0+">
   <img src="https://img.shields.io/badge/Java-8-orange" alt="Java 8">
   <img src="https://img.shields.io/badge/version-1.0.15-blue" alt="version 1.0.15">
