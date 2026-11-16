@@ -35,8 +35,7 @@
 
 > 仅提供安卓安装包；当前版本为 V1.0.15，图片全内置，安装包约 302 MB。
 
-- 百度网盘：[美拍姿势库](https://pan.baidu.com/s/5gZ0hq4QQPHVSmFj_XYwnnA)
-- 夸克网盘：[美拍姿势库 V1.0.15](https://pan.quark.cn/s/a49b40ed7f70)
+
 
 网盘链接如失效，可在 Issues 中反馈。
 
