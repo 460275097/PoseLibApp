@@ -13,7 +13,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Android-5.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 5.0+">
   <img src="https://img.shields.io/badge/Java-8-orange" alt="Java 8">
-  <img src="https://img.shields.io/badge/version-1.0.15-blue" alt="version 1.0.15">
+  <img src="https://img.shields.io/badge/version-1.0.16-blue" alt="version 1.0.16">
   <img src="https://img.shields.io/badge/license-个人免费-lightgrey" alt="个人免费">
 </p>
 
